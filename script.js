@@ -3,7 +3,6 @@ console.log("lets write javascript");
 const searchBox = document.querySelector("#searchInput");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
-const apiKey = "56f53ea20c1b25732db4c87a9bffff23";
 function KtoC(K) {
   return Math.floor(K - 273.15);
 }
